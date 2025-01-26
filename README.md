@@ -42,12 +42,50 @@ The dataset contains 5,000 samples with the following features:
 ### **Logistic Regression**:
 - **Classification Report**:
   
-          precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
-       0       0.70      0.72      0.71       750
-       1       0.71      0.69      0.70       750
-accuracy                           0.70      1500
-macro avg       0.70      0.70      0.70      1500
+              0       0.70      0.72      0.71       750
+              1       0.71      0.69      0.70       750
+       accuracy                           0.70      1500
+      macro avg       0.70      0.70      0.70      1500
+
+- **Accuracy**: 70.13%
+
+### **Random Forest**:
+- **Classification Report**:
+  
+                     precision    recall  f1-score   support
+
+               0       0.69      0.70      0.70       750
+               1       0.70      0.69      0.69       750
+        accuracy                           0.70      1500
+       macro avg       0.70      0.70      0.70      1500
+
+- **Accuracy**: 69.60%
+
+### **XGBoost**:
+- **Classification Report**:
+
+                    precision    recall  f1-score   support
+
+               0       0.67      0.66      0.67       750
+               1       0.67      0.68      0.67       750
+        accuracy                           0.67      1500
+       macro avg       0.67      0.67      0.67      1500
+
+
+- **Accuracy**: 67.00%
+- 
+## **Business Impacts**
+Accurately forecasting energy consumption has significant impacts on businesses and society:
+
+- **Optimized Resource Allocation**: Helps facility managers allocate energy resources effectively, reducing wastage and improving operational efficiency.
+- **Cost Savings**: Enables organizations to anticipate peak consumption periods and adjust operations to reduce electricity bills.
+- **Sustainability**: By understanding energy usage patterns, businesses can increase the utilization of renewable energy sources and reduce their carbon footprint.
+- **Preventive Maintenance**: Identifies anomalies in energy usage, enabling early detection of equipment malfunctions and preventing costly repairs.
+- **Improved Decision-Making**: Supports data-driven decisions for scheduling maintenance, upgrading infrastructure, or negotiating energy contracts.
+- **Scalability**: Models can be adapted to larger facilities or different sectors, providing flexible solutions for diverse energy management challenges.
+
 
 
 
