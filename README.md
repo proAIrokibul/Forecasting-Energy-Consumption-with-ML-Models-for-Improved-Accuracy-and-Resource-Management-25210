@@ -41,12 +41,13 @@ The dataset contains 5,000 samples with the following features:
 ## **Results**
 ### **Logistic Regression**:
 - **Classification Report**:
-            precision    recall  f1-score   support
+  
+  precision    recall  f1-score   support
 
-         0       0.70      0.72      0.71       750
-         1       0.71      0.69      0.70       750
-
+  0       0.70      0.72      0.71       750
+  1       0.71      0.69      0.70       750
   accuracy                           0.70      1500
  macro avg       0.70      0.70      0.70      1500
+
 
 
